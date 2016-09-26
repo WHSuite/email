@@ -1,0 +1,23 @@
+{
+    "name": "whsuite/email",
+    "description": "Email helper for WHSuite Framework extends swift mailer",
+    "require": {
+        "swiftmailer/swiftmailer": "v5.0.1",
+        "openbuildings/swiftmailer-css-inliner": "0.3.*",
+        "whsuite/markdownify": "1.0.*",
+        "mustache/mustache": "2.9.*"
+    },
+    "license": "Private",
+    "authors": [
+        {
+            "name": "WHSuite",
+            "email": "info@whsuite.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Whsuite\\Email" : "src/"
+        }
+    }
+}
